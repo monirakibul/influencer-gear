@@ -12,6 +12,11 @@ body{
     width: 1200px;
     margin-top: 87px;
 }
+
+/*-------------------
+    Header css 
+ -------------------*/
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -33,3 +38,218 @@ nav ul li{
 .cart-icon{
     font-size: 25px;
 }
+
+/*-------------------
+     preebook section css 
+---------------------*/
+
+.preebook{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.preebook-info {
+    width: 50%;
+    margin-right: 10%;
+}
+.preebook-info .preebook-title{
+    font-size: 52px;
+    font-weight: bold;
+}
+.preebook-info p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.preebook-info .preebook-btn{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    border-radius: 41px;
+    text-decoration: none;
+}
+.preebook-info .preebook-btn:hover .fa-arrow-right{
+    padding-left: 30px;
+    transition: padding-left 2s;
+}
+
+.preebook-img img:hover{
+    transform:scale(1.2,1.2) translate3d(0,0,0);
+    transition: transform 2s;
+}
+  
+/*------------------------
+ online shop list css 
+ ------------------------*/
+
+.online-shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 36px;
+    margin: 60px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #fdf9f9, #dbd9d9, #fdf9f9) 1 stretch;
+}
+
+ /*-------------------
+  product list css 
+  --------------------*/
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.popular-title{
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+}
+ .product{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 329px;
+    padding: 16px;
+ }
+ .product img{
+     width: 100%;
+     height: 266px;
+ }
+.product h3{
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.product .amount{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.product p{
+    color: #787885;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+}
+.product .filled{
+    color: rgb(255, 136, 0);
+}
+.seemore-btn{
+    color: #E02C6D;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.seemore-btn i{
+    margin-left: 4px;
+}
+
+
+/*----------------
+ contact us css 
+ -----------------*/
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+form.form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form h3{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-form label{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.name-email{
+    display: flex;
+    align-items: center;
+}
+.name-email .name,.name-email .email{
+    display: flex;
+    flex-direction: column;
+}
+.name-email .name{
+    margin-right: 10px;
+}
+.name-email .email{
+    margin-left: 10px;
+}
+.input-text {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ebe4e4;
+}
+.name-email input:focus{
+    border: 1px solid #E02C6D;
+}
+.input-message {
+    border: 1px solid #ebe4e4;
+}
+.submit-btn{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+    border:none;
+    padding: 10px 20px;
+}
+/*----------------
+ footer css 
+ -----------------*/
+
+
+ .footer-area{
+     width: 100%;
+     background-color: #0A0826;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     padding: 50px 0;
+     
+ }
+ .footer-area h2{
+     color: white;
+     margin: 4px 0;
+     font-size: 24px;
+ }
+ .footer-area p{
+     color: #D9DBE1;
+    line-height: 24px;
+    margin: 2px 0;
+    font-size: 16px;
+ }
+ .footer-area .footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+ }
+ .footer-area i{
+     margin-left: 16px;
+     color: #c4c8d4;
+     background-color: #262344;
+     border-radius: 50%;
+     width: 32px;
+     height: 32px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
